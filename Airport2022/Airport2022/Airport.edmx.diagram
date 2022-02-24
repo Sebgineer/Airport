@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6ed794fe7f6a4a53b15d3f76650ba13b" Name="Diagram1">
+        <EntityTypeShape EntityType="Airport2022Model.Airline" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Airport2022Model.Airport" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Airport2022Model.AirRoute" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Airport2022Model.Operate" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Airport2022Model.Own" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <AssociationConnector Association="Airport2022Model.FK__Operates__Airlin__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="Airport2022Model.FK__Owns__AirlineIAT__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="Airport2022Model.FK__AirRoutes__FromI__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="Airport2022Model.FK__AirRoutes__ToIAT__2A4B4B5E" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
